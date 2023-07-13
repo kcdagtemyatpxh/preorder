@@ -29,23 +29,23 @@ namespace Ef7FirstLook.Controllers
         }
 
         [HttpGet("Create", Name = "CreateHeader")]
-        public async Task<IActionResult> CreateHeader(int id)
+        public async Task<IActionResult> CreateHeader()
         {
             var headers = await _headerService.Create(null);
             return Ok(headers);
         }
 
-        [HttpGet("Update", Name = "UpdateHeader")]
+        [HttpGet("Update/{id}", Name = "UpdateHeader")]
         public async Task<IActionResult> UpdateHeader(int id)
         {
             var headers = await _headerService.Update(null);
             return Ok(headers);
         }
 
-        [HttpGet("Delete", Name = "DeleteHeader")]
+        [HttpGet("Delete/{id}", Name = "DeleteHeader")]
         public async Task<IActionResult> DeleteHeader(int id)
         {
-            var headers = await _headerService.Delete(1);
+            var headers = await _headerService.Delete(id);
             return Ok(headers);
         }
     }
