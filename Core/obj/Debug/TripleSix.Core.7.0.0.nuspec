@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TripleSix.Core</id>
+    <version>7.0.0</version>
+    <authors>triplesix0209@gmail.com</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="AutoMapper" version="12.0.1" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper.Extensions.ExpressionMapping" version="6.0.4" exclude="Build,Analyzers" />
+        <dependency id="Autofac" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Autofac.Extensions.DependencyInjection" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Autofac.Extras.DynamicProxy" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Autofac.Extras.Quartz" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="ClosedXML" version="0.101.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="11.5.2" exclude="Build,Analyzers" />
+        <dependency id="LinqKit.Microsoft.EntityFrameworkCore" version="7.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Proxies" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="7.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.5.0" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.5.0" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.ReDoc" version="6.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.29.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Workspace\triplesix\dotnet.core\Core\dist\net7.0\TripleSix.Core.dll" target="lib\net7.0\TripleSix.Core.dll" />
+  </files>
+</package>

@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\preorder.Data.deps.json
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\preorder.Data.runtimeconfig.json
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\preorder.Data.dll
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\preorder.Data.pdb
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\TripleSix.Core.dll
+C:\Users\admin\source\repos\preorder\preorder.Data\bin\Debug\net7.0\TripleSix.Core.pdb
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.AssemblyInfo.cs
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.csproj.CopyComplete
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.dll
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\refint\preorder.Data.dll
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.pdb
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\preorder.Data.genruntimeconfig.cache
+C:\Users\admin\source\repos\preorder\preorder.Data\obj\Debug\net7.0\ref\preorder.Data.dll

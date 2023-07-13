@@ -153,6 +153,70 @@ namespace Sample.Infrastructure.Migrations
                             Value = "240"
                         });
                 });
+
+            modelBuilder.Entity("Sample.Domain.Entities.sr_header", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime(6)")
+                        .HasComment("Thời gian khởi tạo");
+
+                    b.Property<Guid?>("CreatorId")
+                        .HasColumnType("char(36)")
+                        .HasComment("Id người tạo");
+
+                    b.Property<DateTime?>("DeleteAt")
+                        .HasColumnType("datetime(6)")
+                        .HasComment("Thời gian xóa");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime(6)")
+                        .HasComment("Thời gian chỉnh sửa cuối");
+
+                    b.Property<Guid?>("UpdatorId")
+                        .HasColumnType("char(36)")
+                        .HasComment("Id người chỉnh sửa");
+
+                    b.Property<string>("address")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)")
+                        .HasComment("địa chỉ");
+
+                    b.Property<DateTime>("deliveryDate")
+                        .HasColumnType("Date")
+                        .HasComment("ngày giao hàng");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)")
+                        .HasComment("Họ tên khách hàng");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreateAt");
+
+                    b.HasIndex("CreatorId");
+
+                    b.HasIndex("DeleteAt");
+
+                    b.HasIndex("UpdateAt");
+
+                    b.HasIndex("UpdatorId");
+
+                    b.HasIndex("address");
+
+                    b.HasIndex("deliveryDate");
+
+                    b.HasIndex("name")
+                        .IsUnique();
+
+                    b.ToTable("sr_header");
+                });
 #pragma warning restore 612, 618
         }
     }

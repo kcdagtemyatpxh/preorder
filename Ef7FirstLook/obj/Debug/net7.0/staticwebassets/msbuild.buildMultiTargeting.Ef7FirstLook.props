@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ef7FirstLook.props" />
+</Project>

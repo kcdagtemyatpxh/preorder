@@ -74,6 +74,7 @@ namespace Sample.WebApi
 
             app.Use(next => context =>
             {
+                Console.WriteLine("Khang");
                 context.Request.EnableBuffering();
                 return next(context);
             });

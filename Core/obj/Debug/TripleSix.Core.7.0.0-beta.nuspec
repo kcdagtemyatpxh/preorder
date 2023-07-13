@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TripleSix.Core</id>
+    <version>7.0.0-beta</version>
+    <authors>triplesix0209@gmail.com</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Workspace\triplesix\dotnet.core\Core\dist\net7.0\TripleSix.Core.dll" target="lib\net7.0\TripleSix.Core.dll" />
+  </files>
+</package>
